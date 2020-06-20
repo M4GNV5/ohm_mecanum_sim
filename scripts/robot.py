@@ -38,13 +38,13 @@ class Robot:
     _t_tof              = []
     
     # Minimum angle of laser beams (first beam)
-    _angle_min = -135*pi/180
+    _angle_min = -180*pi/180
 
     # Angle increment between beams
-    _angle_inc = 1*pi/180
+    _angle_inc = 0.5*pi/180
 
     # Number of laser beams
-    _laserbeams = 271
+    _laserbeams = 721
 
     # Facing directions of ToF sensors
     _v_face             = []
@@ -56,7 +56,7 @@ class Robot:
     _far_tof            = []
     
     # Range of ToF sensors
-    _rng_tof            = 8.0
+    _rng_tof            = 20.0
 
     # Offset of ToF sensors from the kinematic centre
     _offset_tof         = 0.2
